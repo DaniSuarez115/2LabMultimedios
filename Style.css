@@ -2,10 +2,14 @@
     background-color: #555;
     height: 100%;
 }
+.main img{
+    height: 100%;
+    width: 100%;
+}
 .MainContainer{
-    height: 700px
+    height: 950px
 }
 .footerContainer{
     background-color: blueviolet;
-    height: 250px;
+    height: 150px;
 }
