@@ -1,0 +1,11 @@
+.main{
+    background-color: #555;
+    height: 100%;
+}
+.MainContainer{
+    height: 700px
+}
+.footerContainer{
+    background-color: blueviolet;
+    height: 250px;
+}
