@@ -1,5 +1,5 @@
 .main{
-    background-color: #555;
+    background-color: #ffffffcc;
     height: 100%;
 }
 .main img{
@@ -12,4 +12,7 @@
 .footerContainer{
     background-color: blueviolet;
     height: 150px;
+}
+.HeaderContainer{
+    background-color: rgb(7, 5, 85);
 }
