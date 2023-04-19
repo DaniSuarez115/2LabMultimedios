@@ -8,11 +8,7 @@
 }
 .MainContainer{
     height: 950px
-    background-image: url(../Imagenes/wallpaperbetter.jpg);
-    background-size: 100% auto;
-    background-position: center top;
-    background-repeat: no-repeat;
-
+   
 }
 .footerContainer{
     background-color: blueviolet;
