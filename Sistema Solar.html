@@ -14,52 +14,59 @@
 </head>
 
 <body>
+ 
   <header>
-    <div class="ContainerMain">
-        <div class="HeaderContainer">
-          <header>
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" id="navId" role="tablist">
-              <li class="nav-item">
-                <a href="Index.html" class="nav-link active" data-bs-toggle="tab" aria-current="page">Home</a>
-              </li>
-              <li class="nav-item" role="presentation">
-                <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">Galaxia</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Descubre Más</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="Sistema Solar.html">Sistema Solar</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#tab3Id">Enanas Blancas</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#tab4Id">Agujero Negros</a>
-                </div>
-              </li>
-            </ul>
-            
-            <!-- Tab panes -->
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
-              <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-              <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-              <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
-              <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
-            </div>
-
-            <script>
-                var triggerEl = document.querySelector('#navId a')
-                bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
-              </script>    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html"><Img  src="Imagenes/hogar.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Galaxia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sistema Solar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>   
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <main>
     <img src="Imagenes/sistemaS.jpg" alt="..." height="100%" width="100%">
   <br>
   <br>
-    
-  <div class="row">
-    <div class="col-md-4">
+  <div class="container">
+    <div class="d-flex flex-row align-items-center justify-content-center">
+      <div class="col-md-6">
+        <h1>Qué es el sistema solar</h1>
+        <p>El sistema solar es un sistema planetario. Un sistema planetario está constituido por una estrella (o en ocasiones un conjunto de estrellas) y los cuerpos celestes que giran a su alrededor, es decir, que se encuentran bajo la influencia de su campo gravitatorio, ya se trate de planetas con sus respectivas lunas, planetas menores, asteroides, cometas, o polvo estelar.</p>
+        <p>En el caso del sistema solar, la estrella que da forma a todo el sistema planetario es el Sol, el cual ocupa el centro de un enorme disco de material que se extiende por más de 30.000 millones de kilómetros, en el que como decíamos, se encuentran sus ocho planetas y demás objetos celestes.</p>
+      </div>
       <div class="card">
+        <div class="card-body">
+          <video  class="card-img-top" src="Imagenes/Sistema solar 101 _ National Geographic en Español.mp4"  controls></video>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border h-100"></div>
+  <br>
+  <h2 class="text-center">El sistema solar esta conformado</h2>
+   <br>
+  <div class="container my-7">
+  <div class="row ">
+    <div class="col-md-3">
+      <div class="card bg-secondary">
         <img src="Imagenes/sol2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Sol</h5>
@@ -67,85 +74,82 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card">
+    <div class="col-md-3">
+      <div class="card bg-secondary">
         <img src="Imagenes/mercurio.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Mercurio</h5>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card">
+    <div class="col-md-3">
+      <div class="card bg-secondary">
         <img src="Imagenes/Venus.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Título 3</h5>
-          <p class="card-text">Descripción 3</p>
+          <h5 class="card-title">Venus</h5>
         </div>
       </div>
     </div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card">
+    <div class="col-md-3">
+      <div class="card bg-secondary">
         <img src="Imagenes/Marte.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Sol</h5>
-          <p class="card-text">Descripción 1</p>
+          <h5 class="card-title">Marte</h5>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card">
+  </div>
+</div> 
+
+  <div class="container my-5">
+  <div class="row ">
+    <div class="col-md-3">
+      <div class="card bg-secondary">
         <img src="Imagenes/Jupiter.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Título 2</h5>
-          <p class="card-text">Descripción 2</p>
+          <h5 class="card-title">Júpiter</h5>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card">
+    <div class="col-md-3">
+      <div class="card bg-secondary">
         <img src="Imagenes/Saturno 11.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Título 3</h5>
-          <p class="card-text">Descripción 3</p>
+          <h5 class="card-title">Saturno</h5>
         </div>
       </div>
     </div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card">
+    <div class="col-md-3">
+      <div class="card bg-secondary">
         <img src="Imagenes/Uranus2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Sol</h5>
-          <p class="card-text">Descripción 1</p>
+          <h5 class="card-title">Urano</h5>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card">
+    <div class="col-md-3">
+      <div class="card bg-secondary">
         <img src="Imagenes/Neptuno.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Título 2</h5>
-          <p class="card-text">Descripción 2</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img src="Imagenes/tierra2.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Título 3</h5>
-          <p class="card-text">Descripción 3</p>
+          <h5 class="card-title">Neptuno</h5>
         </div>
       </div>
     </div>
   </div>
-     
+</div>
+
+<div class="container my-5">
+  <div class="row ">
+  <div class="col-md-3">
+    <div class="card bg-secondary">
+      <img src="Imagenes/tierra2.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tierra</h5>
+      </div>
+    </div>
+  </div>
+</div> 
+</div>
   </main>
   <footer>
     <!-- place footer here -->
