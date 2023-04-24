@@ -35,4 +35,37 @@
     font-weight: bold;
     text-shadow: 2px 2px #000;
 }
-
+.ContainerImg{
+    background-color: #555;
+    height: 390px;
+}
+.ContainerImg img{
+    height: 100%;
+    width: 100%;
+}
+.ContainerVid{
+    background-color: #888;
+    height: 265px;
+    width: 50%;
+    float: left;
+    margin-top: 4px;
+    margin-right: 2px;
+}
+.ContainerVid video{
+    width: 100%;
+    height: 100%;
+}
+.container-fluid p{
+    width: 100%;
+    font-size: x-large;
+}
+.container-fluid
+{
+width: 50%;
+}
+@media (max-width: 1350px) {
+    .ContainerImg img{
+        height: 100%;
+        width: 100%;
+    }
+}
