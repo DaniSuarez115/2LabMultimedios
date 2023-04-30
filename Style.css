@@ -154,3 +154,13 @@ width: 50%;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+#Galaxy{
+    height: 400px;
+    width: 500px;
+    float: left;
+}
+#Galaxy img{
+    float: right;
+    height: 100%;
+    width: 100%;
+}
